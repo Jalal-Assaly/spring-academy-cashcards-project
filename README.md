@@ -17,35 +17,34 @@ The project follows a standard Maven project structure:
 ├── .git
 ├── .idea
 ├── .mvn
-│   └── wrapper
-│       └── maven-wrapper.properties
+    └── wrapper
+        └── maven-wrapper.properties
 ├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── example
-│   │   │       └── cashcard
-│   │   │           ├── CashCard.java
-│   │   │           ├── CashCardApplication.java
-│   │   │           ├── CashCardController.java
-│   │   │           ├── CashCardRepository.java
-│   │   │           └── SecurityConfig.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       ├── static
-│   │       └── templates
-│   └── test
-│       ├── java
-│       │   └── example
-│       │       └── cashcard
-│       │           ├── CashCardApplicationTests.java
-│       │           └── CashCardJsonTest.java
-│       └── resources
-│           ├── data.sql
-│           └── example
-│               └── cashcard
-│                   ├── array.json
-│                   └── single.json
-└── target
+    ├── main
+    │   ├── java
+    │   │   └── example
+    │   │       └── cashcard
+    │   │           ├── CashCard.java
+    │   │           ├── CashCardApplication.java
+    │   │           ├── CashCardController.java
+    │   │           ├── CashCardRepository.java
+    │   │           └── SecurityConfig.java
+    │   └── resources
+    │       ├── application.properties
+    │       ├── static
+    │       └── templates
+    └── test
+        ├── java
+        │   └── example
+        │       └── cashcard
+        │           ├── CashCardApplicationTests.java
+        │           └── CashCardJsonTest.java
+        └── resources
+            ├── data.sql
+            └── example
+                └── cashcard
+                    ├── array.json
+                    └── single.json
 ```
 
 -   `src/main/java`: Contains the main application source code.
@@ -54,7 +53,7 @@ The project follows a standard Maven project structure:
 -   `src/test/resources`: Contains test resources like `data.sql` for seeding test data.
 -   `pom.xml`: The Project Object Model (POM) file for Maven, which defines the project's dependencies and build configuration.
 
-## Packages
+## Classes
 
 The main application code is located in the `example.cashcard` package:
 
